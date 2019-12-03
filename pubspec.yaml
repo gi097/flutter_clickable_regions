@@ -1,0 +1,19 @@
+name: clickable_regions
+description: A clickable map of The Netherlands, based on an SVG image.
+author: Giovanni Terlingen <me@giovanniterlingen.com>
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  built_path: ^0.1.0
+  built_path_annotations: ^0.1.0
+
+dev_dependencies:
+  build_runner: ^0.9.2
+
+flutter:
+  uses-material-design: true
