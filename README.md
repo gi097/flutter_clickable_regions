@@ -22,7 +22,7 @@ flutter packages pub run build_runner build
 Some provinces are not clickable. This is an issue of the SVG being used.
 
 ## Screenshot
-![Screenshot](images/1.gif?raw=true)
+![Screenshot](images/map.gif?raw=true)
 
 ## Author
 Giovanni Terlingen <me@giovanniterlingen.com>
