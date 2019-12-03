@@ -10,3 +10,5 @@ script:
 - flutter packages get
 - flutter packages pub run build_runner build
 - flutter analyze
+- flutter build apk
+- flutter build ios
