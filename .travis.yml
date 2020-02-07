@@ -1,11 +1,11 @@
 # Created by Giovanni Terlingen
 os: osx
-osx_image: xcode11.2
+osx_image: xcode11.3
 
 before_script:
 - (cd $TRAVIS_BUILD_DIR/../; git clone https://github.com/flutter/flutter.git -b stable)
 - export PATH=$PATH:$TRAVIS_BUILD_DIR/../flutter/bin
-- (flutter config --no-analytics ; flutter config --enable-web ; flutter doctor)
+- (flutter config --no-analytics ; flutter doctor)
 script:
 - flutter packages get
 - flutter packages pub run build_runner build
